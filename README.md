@@ -13,25 +13,25 @@ The dataset is in kaggle followed by [link](https://www.kaggle.com/abhinavwalia9
 
 
 ### Usage
-1. Download pretrained-bert-model
+#### 1. Download pretrained-bert-model
 ```bash
 # change pretrained_model_name you want to use in the file
 python download_pretrained_model.py
 ```  
 
-2. Custom your parameters in **config.py** file.
+#### 2. Custom your parameters in **config.py** file.
 ```bash
 # The dir-path of your downloaded pretrained model 
 # or the pretrained model name if you dont want to download it
 BASE_MODEL_PATH = "./pretrained_model/bert_base_uncased"
 ```
 
-2. Train your model
+#### 3. Train your model
 ```bash
 python train.py
 ```  
 
-3. Predict a sentences through
+#### 4. Predict a sentences through
 ```bash
 # python predict.py Your_Sentence
 python predict.py I am going to Paris next summer
